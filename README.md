@@ -90,7 +90,7 @@ If you already have API keys from Twitter, then place them here. If you do not a
 <br/><br/>
 ### What Data is Retrieved
 
-The data ingested into the Tweets tables are Tweet gathered by:
+The data ingested into the Tweets tables are Tweets gathered by:
 * Date 
 * Location
 * Keyword
@@ -150,3 +150,4 @@ In order to create the SQL database and table, in the top directory, create sql_
     pip install -r requirements.txt
 
     $ bash execute.sh
+
