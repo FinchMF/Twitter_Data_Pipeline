@@ -149,4 +149,4 @@ In order to create the SQL database and table, in the top directory, create sql_
 
     pip install -r requirements.txt
 
-    bash execute.sh
+    $ bash execute.sh
