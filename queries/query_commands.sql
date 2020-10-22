@@ -1,6 +1,6 @@
 
 
-CREATE DATABASE Twitter_Data
+CREATE DATABASE IF NOT EXISTS Twitter_Data
 ;
 
 CREATE TABLE Tweets (

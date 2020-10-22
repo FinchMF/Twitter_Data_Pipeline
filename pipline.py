@@ -21,6 +21,15 @@ class Pipeline:
     def set_database(self):
 
         SQL = sql.SQL_Cli(self.db)
+
+        try:
+            SQL.execute(self.queries[0])
+
+            return print('[+] Database Created')
+
+        except:
+            return print('[+] Database Already Exists')
+            
         try:
 
             SQL.execute(self.queries[1])
