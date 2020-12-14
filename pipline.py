@@ -25,20 +25,20 @@ class Pipeline:
         try:
             SQL.execute(self.queries[0])
 
-            return print('[+] Database Created')
+            print('[+] Database Created')
 
         except:
-            return print('[+] Database Already Exists')
+            print('[+] Database Already Exists')
             
         try:
 
             SQL.execute(self.queries[1])
             SQL.execute(self.queries[2])
 
-            return print('[+] Tables Set')
+            print('[+] Tables Set')
 
         except:
-            return print('[+] Tables Already Set')
+            print('[+] Tables Already Set')
           
 
     def pipe(self, tweet_data, sentiment_data):
